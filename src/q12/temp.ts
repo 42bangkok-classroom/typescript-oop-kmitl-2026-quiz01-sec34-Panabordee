@@ -3,7 +3,7 @@ if(isNaN(temp)){
         console.log("press enter the number !:");
 }else if (temp > 30){
         console.log("Hot");
-}else if (temp < 30){
+}else if (temp <= 30){
         console.log("Normal");
 }
 

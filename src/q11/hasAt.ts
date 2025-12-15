@@ -1,7 +1,7 @@
 const hasat = (process.argv[2]);
 if(hasat.includes('@')){
-        console.log("has @");
+        console.log("Has @");
 }else {
-        console.log("no @");
+        console.log("No @");
 }
 
