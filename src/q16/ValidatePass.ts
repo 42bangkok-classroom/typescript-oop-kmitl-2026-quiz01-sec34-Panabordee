@@ -4,7 +4,12 @@ if (!password){
    process.exit(0);
 }
 
-const long: boolean=password.length >= 8
-const number: boolean = "[0-9]".test(password)
-const uppercasr:coolean = 
+let Islon =password.length >= 8;
+let number= password.includes("0-9");
+let uppercasr=password.includes("A-Z"); 
 
+if (Islon && number && uppercasr){
+   console.log("valid");}
+else{
+   console.log("Invalid");
+}
