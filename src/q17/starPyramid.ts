@@ -6,5 +6,4 @@ else{
 for (i=1;i <= loop1;i++){
     str += "*";
   console.log(str)}
-   return 0;
 }
